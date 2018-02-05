@@ -11,7 +11,13 @@ namespace LibraryCalc
     {
         public static double Somma(double a, double b)
         {
-            double ris = 0;
+            double ris = a + b ;
+
+            return ris;
+        }
+        public static double Divisione(double a, double b)
+        {
+            double ris = a / b;
 
             return ris;
         }
